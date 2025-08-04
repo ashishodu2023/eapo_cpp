@@ -1,0 +1,46 @@
+# Build artifacts
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/compile_commands.json
+Makefile
+
+# Generated binaries and libraries
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# LibTorch local copy (if you vendored one)
+/libtorch/
+/opt/libtorch/
+
+# Third-party build dirs
+third_party/tokenizers/bindings/tokenizers-cpp/build/
+
+# CPack packaging (if used)
+*.tar.gz
+*.zip
+
+# Results, logs, and temporary outputs
+/results/
+/*.log
+
+# IDE configs and editor backups
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*~
+*.swp
+
+# Mac OS
+.DS_Store
+
+# Python caches (for scripts/)
+__pycache__/
+*.pyc

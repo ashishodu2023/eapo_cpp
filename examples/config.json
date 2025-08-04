@@ -1,0 +1,14 @@
+{
+  "model_path": "../models/phi3_libtorch.pt",
+  "tokenizer_path": "../tokenizer/tokenizer.json",
+  "dataset_path": "../data/xsum_sample.jsonl",
+  "results_dir": "../results",
+  "num_trials": 20,
+  
+  "prompt_space": {
+    "style": ["concise", "role", "stepwise", "few-shot", "chain-of-thought"],
+    "reasoning": ["none", "brief", "bounded", "detailed"],
+    "format": ["free", "bullets", "json", "table"],
+    "brevity": ["none", "1sent", "3sent", "word50", "token50"]
+  }
+}
